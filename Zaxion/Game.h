@@ -594,7 +594,7 @@ void DeathMenu(){
   sprites.drawOverwrite(0,0,Death,0);
   ard.setCursor(0,CENTERY);
   ard.print(F("Score:"));
-  ard.print(CountRoom(0)+(Currency*100));
+  ard.println(CountRoom(0)+(Currency*100));
   ard.print(F("PRESS A"));
   if (ard.justPressed(A_BUTTON)){
     gameState = GameState::MainMenu;
