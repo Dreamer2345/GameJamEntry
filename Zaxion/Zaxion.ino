@@ -48,7 +48,7 @@ void loop() {
   }
   if (Err!=0 && ard.everyXFrames(30)){
     playerobj.H-=5;
-    if (playerobj.H > 100) {gameState = GameState::Death;}
+    if (playerobj.H == 0) {gameState = GameState::Death;}
   } else {
     if (ard.everyXFrames(30)) {
       if (playerobj.H < 100)
