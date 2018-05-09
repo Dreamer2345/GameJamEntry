@@ -87,6 +87,8 @@ void ShipSetup(uint8_t Type){
   playerobj.H = 100;
   JumpsLeft = 3;
   Dist = 3;
+  Err1 = 0;
+  Err = 0;
 }
 
 void Jump(){
