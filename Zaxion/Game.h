@@ -615,9 +615,9 @@ void ShipPick(){
   ard.println(F("Pick a Ship:"));
   if (Uni > 0){ard.println(F("^"));} else {ard.println();}
   switch(Uni){
-    case 0: ard.print(F("JuggerNaught: +1 Sheild")); break;
-    case 1: ard.print(F("Mercinary: +1 Blaster")); break;
-    case 2: ard.print(F("Trader: +1 CargoHold")); break;
+    case 0: ard.print(F("JuggerNaught")); break;
+    case 1: ard.print(F("Mercinary")); break;
+    case 2: ard.print(F("Trader")); break;
   }
   if (Uni < 2){ard.println(F("v"));}
   
